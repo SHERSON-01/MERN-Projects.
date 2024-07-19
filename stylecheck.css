@@ -92,6 +92,23 @@ main{
     font-weight: 500;
     margin-top: 10px;
 }
+.contmid{
+    height: 800px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+}
+.prodtab{
+    width: 700px;
+    height: 700px;
+    padding: 0px 15px;
+    background-color: aquamarine;
+    display: flex;
+    text-align: center
+}
+.prodtab table{
+    font-size: ;
+}
 .container{
     height: 100;
     background-color: black;
