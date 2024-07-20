@@ -102,12 +102,138 @@ main{
     width: 700px;
     height: 700px;
     padding: 0px 15px;
-    background-color: aquamarine;
     display: flex;
-    text-align: center
+    text-align: center;
 }
 .prodtab table{
-    font-size: ;
+    width: 100%;
+    display: table;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: gray;
+}
+.prodtab table thead{
+    border-bottom: 2px solid black;
+    display: table-header-group;
+    vertical-align:middle ;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.prodtab table thead tr th{
+    color: #111111;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.prodtab table tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.prodtab table tbody tr td{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.prodtab table tbody tr td .prod_cart_item{
+    width: 400px;
+}
+div{
+    display: block;
+}
+.prodtab table tbody tr td .prod_cart_item .prod_img{
+    float: left;
+    margin-right: 30px;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.left-menu{
+    height: 700px;
+    width: 390px;
+    padding: 0px 15px;
+    background-color: white;
+}
+.discount{
+    width: 100%;
+    height: 104px;
+    margin-bottom: 60px;
+    background-color: white;
+    margin-left: 15px;
+}
+.discount h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 700px;
+    margin-bottom: 35px;
+}
+.discount input{
+    height: 50px;
+    width: 60%;
+    font-size: 14px;
+    color: #b7b7b7;
+    border: 1px solid #e1e1e1;
+    padding-left: 20px;
+}
+.discount button{
+    height: 50px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+.carttotal{
+    width: 80%;
+    height: 180px;
+    background-color: #f3f2ee;
+    padding: 35px ;
+    margin-left: 15px;
+}
+.carttotal h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 12px;
+
+}
+.carttotal ul{
+    display: block;
+    list-style-type: disc;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+}
+.carttotal ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444444;
+    line-height: 40px;
+    display: list-item;
+}
+.carttotal ul li span{
+    float: right;
+    font-weight: 700;
+    color: #e53637;
+}
+.carttotal a{
+    display: block;
+    padding: 12px 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
 }
 .container{
     height: 100;
