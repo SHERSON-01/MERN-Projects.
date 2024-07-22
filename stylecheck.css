@@ -136,6 +136,7 @@ tr{
 }
 .prodtab table tbody tr td{
     padding-top: 30px;
+    border-top: 1px solid gray;
     padding-bottom: 30px;
 }
 .prod_cart_item{
@@ -363,3 +364,4 @@ img{
 .extlow h4{
     font-size: 16px;
 }
+
