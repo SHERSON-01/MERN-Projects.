@@ -74,7 +74,7 @@ header{
     padding: 10px;
 }
 main{
-    height: 933px;
+    height: 933px; 
     background-color: white;
 }
 .top{
@@ -365,3 +365,35 @@ img{
     font-size: 16px;
 }
 
+#logo{
+    color: gray;
+    font-size: 16px;
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .hedup ul li, .nav ul li {
+        padding: 10px 10px;
+    }
+
+    .contmid {
+        padding: 20px;
+    }
+
+    .prodtab, .left-menu {
+        width: 100%;
+        padding: 0;
+    }
+
+    .prod_cart_item {
+        width: 100%;
+    }
+
+    .upper {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .shoplist1, .shoplist2, .lower {
+        width: 100%;
+        margin-left: 0;
+    }
+}
